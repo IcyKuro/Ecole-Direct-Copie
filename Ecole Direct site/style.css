@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.page {
+  display: flex;
+  flex-direction: row;
+}
+#title-logo {
+  width: 0px;
+  height: 20px;
+}
+.left-page {
+  width: 35%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-left {
+  height: 34%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.in-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 270px;
+}
+#logo {
+  width: 340px;
+  height: 220px;
+}
+#title-ed {
+  font: normal 200 30px Helvetica, sans-serif;
+  color: rgb(20, 20, 82);
+}
+.center-left {
+  height: 35%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.in-center-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.top-center-left {
+  height: 29%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.center-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+}
+.center-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 15%;
+  width: 100%;
+}
+#connectez-vous {
+  font: 400 40px Arial, Helvetica, sans-serif;
+  color: rgb(53, 131, 214);
+}
+.barre {
+  height: 57px;
+  width: 520px;
+  font: 500 30px Arial, Helvetica, sans-serif;
+  color: black;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+#in-barre {
+  color: rgba(0, 0, 0, 0.966);
+  border: 1px solid rgba(164, 164, 164, 0.793);
+}
+.barre:focus {
+  outline: 5px solid rgb(64, 101, 234);
+}
+#mdp {
+  font: italic 100 28px Arial, Helvetica, sans-serif;
+  color: rgba(79, 78, 78, 0.686);
+  cursor: pointer;
+}
+#mdp:hover {
+  text-decoration: underline;
+}
+.bottom-left {
+  display: flex;
+  flex-direction: column;
+}
+.bottom-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+}
+.bottom-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font: bold 24px Helvetica, sans-serif;
+  height: 70px;
+  width: 100%;
+}
+.bottom-page {
+  height: 50px;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+#scales {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+#souvenir {
+  font: bold 29px Helvetica, sans-serif;
+}
+#button {
+  height: 100px;
+  width: 520px;
+  border-radius: 10px;
+  background-color: #0f8fd1;
+  font: 500 40px Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+}
+#mention {
+  font: 300 28px Helvetica, sans-serif;
+}
+#mention:hover {
+  text-decoration: underline;
+}
+.right-page {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  height: 100vh;
+  background: linear-gradient(#0e4188, #0e8acd);
+}
+.right-prb {
+  height: 100%;
+  width: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prb {
+  width: 100%;
+  height: 39%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.511);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  writing-mode: sideways-lr;
+  margin-left: 3px;
+  cursor: pointer;
+}
+.in-prb a {
+  font: 700 26px Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+#prb-connexion:hover {
+  color: rgb(4, 4, 120);
+}
+.right-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 100%;
+  margin-left: 3px;
+}
+.right-center-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+}
+.right-top h3 {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  font: 500 40px Arial, Helvetica, sans-serif;
+  color: white;
+}
+.right-bottom {
+  width: 53%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#google-play {
+  width: 310px;
+  height: 100px;
+  cursor: pointer;
+}
+#app-store {
+  width: 310px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
